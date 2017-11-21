@@ -36,6 +36,9 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="IPS120_GoToField_SubVI.vi" Type="VI" URL="../../IPS120_GoToField_SubVI.vi"/>
+		<Item Name="Set Hold - Check &amp; Resend.vi" Type="VI" URL="../Set Hold - Check &amp; Resend.vi"/>
+		<Item Name="Set Target - Check &amp; Resend.vi" Type="VI" URL="../Set Target - Check &amp; Resend.vi"/>
+		<Item Name="Set To Set - Check &amp; Resend.vi" Type="VI" URL="../Set To Set - Check &amp; Resend.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -47,9 +50,6 @@
 			<Item Name="FGV_PSP - IPS120 Status.vi" Type="VI" URL="../FGV/FGV_PSP - IPS120 Status.vi"/>
 			<Item Name="FGV_PSP - IPS120 Targets.vi" Type="VI" URL="../FGV/FGV_PSP - IPS120 Targets.vi"/>
 		</Item>
-		<Item Name="Set Hold - Check &amp; Resend.vi" Type="VI" URL="../Set Hold - Check &amp; Resend.vi"/>
-		<Item Name="Set Target - Check &amp; Resend.vi" Type="VI" URL="../Set Target - Check &amp; Resend.vi"/>
-		<Item Name="Set To Set - Check &amp; Resend.vi" Type="VI" URL="../Set To Set - Check &amp; Resend.vi"/>
-		<Item Name="IPS120_GoToField.vi" Type="VI" URL="../../IPS120_GoToField.vi"/>
 	</Item>
+	<Item Name="IPS120_GoToField.vi" Type="VI" URL="../../IPS120_GoToField.vi"/>
 </Library>
