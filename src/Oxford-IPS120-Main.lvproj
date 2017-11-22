@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="IPS-120.lvlib" Type="Library" URL="../IPS-120.lvlib"/>
+		<Item Name="IPS120.vipb" Type="Document" URL="../IPS120.vipb"/>
+		<Item Name="IPS120.vipc" Type="Document" URL="../IPS120.vipc"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
