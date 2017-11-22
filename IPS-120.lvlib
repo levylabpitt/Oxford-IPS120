@@ -35,43 +35,46 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="DSC" Type="Folder">
-		<Item Name="IPS120_to_DSC.vi" Type="VI" URL="../IPS120 - SubVIs/DSC/IPS120_to_DSC.vi"/>
-		<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../IPS120 - SubVIs/DSC/NetVarWrite_dbl.vi"/>
-		<Item Name="NetVarWrite_str.vi" Type="VI" URL="../IPS120 - SubVIs/DSC/NetVarWrite_str.vi"/>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="IPS120_to_DSC.vi" Type="VI" URL="../IPS120/DSC/IPS120_to_DSC.vi"/>
+		<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../IPS120/DSC/NetVarWrite_dbl.vi"/>
+		<Item Name="NetVarWrite_str.vi" Type="VI" URL="../IPS120/DSC/NetVarWrite_str.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
-		<Item Name="Set Control - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Set Control - Enum.ctl"/>
-		<Item Name="Set Switch Heater - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Set Switch Heater - Enum.ctl"/>
-		<Item Name="Set Activity - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Set Activity - Enum.ctl"/>
-		<Item Name="Read X - Cluster.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read X - Cluster.ctl"/>
-		<Item Name="Read System 1 - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read System 1 - Enum.ctl"/>
-		<Item Name="Read System 2 - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read System 2 - Enum.ctl"/>
-		<Item Name="Read Activity - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read Activity - Enum.ctl"/>
-		<Item Name="Read Mode 1 - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read Mode 1 - Enum.ctl"/>
-		<Item Name="Read Mode 2 - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read Mode 2 - Enum.ctl"/>
-		<Item Name="Read Switch Heater - Enum.ctl" Type="VI" URL="../IPS120 - SubVIs/Typedefs/Read Switch Heater - Enum.ctl"/>
+		<Item Name="Set Control - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Set Control - Enum.ctl"/>
+		<Item Name="Set Switch Heater - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Set Switch Heater - Enum.ctl"/>
+		<Item Name="Set Activity - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Set Activity - Enum.ctl"/>
+		<Item Name="Read X - Cluster.ctl" Type="VI" URL="../IPS120/Typedefs/Read X - Cluster.ctl"/>
+		<Item Name="Read System 1 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read System 1 - Enum.ctl"/>
+		<Item Name="Read System 2 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read System 2 - Enum.ctl"/>
+		<Item Name="Read Activity - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Activity - Enum.ctl"/>
+		<Item Name="Read Mode 1 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Mode 1 - Enum.ctl"/>
+		<Item Name="Read Mode 2 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Mode 2 - Enum.ctl"/>
+		<Item Name="Read Switch Heater - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Switch Heater - Enum.ctl"/>
 	</Item>
 	<Item Name="Drivers" Type="Folder">
-		<Item Name="IPS Set Control.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Control.vi"/>
-		<Item Name="IPS Set Activity.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Activity.vi"/>
-		<Item Name="IPS Set Switch Heater.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Switch Heater.vi"/>
-		<Item Name="IPS Set Target Field.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Target Field.vi"/>
-		<Item Name="IPS Set Target Field Sweep Rate.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Target Field Sweep Rate.vi"/>
-		<Item Name="IPS Set Target Current.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Target Current.vi"/>
-		<Item Name="IPS Set Target Current Sweep Rate.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Set Target Current Sweep Rate.vi"/>
-		<Item Name="IPS Examine Status.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Examine Status.vi"/>
-		<Item Name="IPS Parse Status.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Parse Status.vi"/>
-		<Item Name="IPS Read Switch Heater NOT WORKING.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Switch Heater NOT WORKING.vi"/>
-		<Item Name="IPS Read Target Current.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Target Current.vi"/>
-		<Item Name="IPS Read Target Current Sweep Rate.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Target Current Sweep Rate.vi"/>
-		<Item Name="IPS Read Magnet Current.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Magnet Current.vi"/>
-		<Item Name="IPS Read PS Current.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read PS Current.vi"/>
-		<Item Name="IPS Read Target Field.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Target Field.vi"/>
-		<Item Name="IPS Read Target Field Sweep Rate.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Target Field Sweep Rate.vi"/>
-		<Item Name="IPS Read Magnet Field.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read Magnet Field.vi"/>
-		<Item Name="IPS Read PS Field.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read PS Field.vi"/>
-		<Item Name="IPS Read PS Voltage.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/IPS Read PS Voltage.vi"/>
-		<Item Name="NI USB GPIB Command.vi" Type="VI" URL="../IPS120 - SubVIs/Drivers/NI USB GPIB Command.vi"/>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="IPS Set Control.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Control.vi"/>
+		<Item Name="IPS Set Activity.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Activity.vi"/>
+		<Item Name="IPS Set Switch Heater.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Switch Heater.vi"/>
+		<Item Name="IPS Set Target Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Target Field.vi"/>
+		<Item Name="IPS Set Target Field Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Target Field Sweep Rate.vi"/>
+		<Item Name="IPS Set Target Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Target Current.vi"/>
+		<Item Name="IPS Set Target Current Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Target Current Sweep Rate.vi"/>
+		<Item Name="IPS Examine Status.vi" Type="VI" URL="../IPS120/Drivers/IPS Examine Status.vi"/>
+		<Item Name="IPS Parse Status.vi" Type="VI" URL="../IPS120/Drivers/IPS Parse Status.vi"/>
+		<Item Name="IPS Read Switch Heater NOT WORKING.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Switch Heater NOT WORKING.vi"/>
+		<Item Name="IPS Read Target Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Current.vi"/>
+		<Item Name="IPS Read Target Current Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Current Sweep Rate.vi"/>
+		<Item Name="IPS Read Magnet Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Magnet Current.vi"/>
+		<Item Name="IPS Read PS Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Current.vi"/>
+		<Item Name="IPS Read Target Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Field.vi"/>
+		<Item Name="IPS Read Target Field Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Field Sweep Rate.vi"/>
+		<Item Name="IPS Read Magnet Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Magnet Field.vi"/>
+		<Item Name="IPS Read PS Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Field.vi"/>
+		<Item Name="IPS Read PS Voltage.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Voltage.vi"/>
+		<Item Name="NI USB GPIB Command.vi" Type="VI" URL="../IPS120/Drivers/NI USB GPIB Command.vi"/>
 	</Item>
+	<Item Name="Oxford-IPS120-Main.vi" Type="VI" URL="../Application/Oxford-IPS120-Main.vi"/>
 	<Item Name="IPS-120-API.lvlib" Type="Library" URL="../API/IPS-120-API.lvlib"/>
 </Library>
