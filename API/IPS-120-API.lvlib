@@ -9,6 +9,8 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2016\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">IPS-120.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../IPS-120.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*'!!!*Q(C=\&gt;5B=BN"%)8BFV2!K,"*3F&gt;Y6^!6&gt;)5GK7!"EU#RY,[#LC!1'.*+F5G-"(+!C"A%/P_//CK*2!:*SM#THP8OGZW:T\.4;WG5N^)&lt;06YLOT_7*\2LRVR=(M_\=&gt;6X[P&lt;&gt;]&lt;1\&lt;T^G&amp;`UPGC\\(`P^\K\/TNP0JD^.J[@YL\2@+8IJ,_6ZFY^8.`%`X]_P.(W)K%6.;F#N;&lt;L()C`S)C`S)C`S*%`S*%`S*%`S)!`S)!`S)!^SEZP=Z#9XO=H(13ZSE9M=5D&amp;Z-6%R;$&amp;!]4!5&amp;;@#5XA+4_(B6I7H]"3?QF.Y?%3&amp;J`!5HM*4?/CGQF.Y#E`B+4Q-.31V$H)]B9@BF8A34_**0)G(+:6Y%E!S74*Q-AA-*9X*2?**0)G(3S7?R*.Y%E`CI6G**`%EHM34?/AS6C7(:DL)]4#-!E`A#4S"*`!QN!*0Y!E]A3@Q-*U#4_!*%-'%Q?!1&amp;(1+(ABO!E`AY:=#4_!*0)%H].!UXF#-F:EUUU'/RXC-RXC-RXA91M:D0-:D0-&lt;$M$)?YT%?YT%?JJ,R')`R')C:F/FF"D-&gt;T5-G-"Z_RG\R?%MZ*"[(V*N8P3H6GUW^C&gt;3&lt;1`X3V3^4`:,5C[^?606CK2&gt;"`=?JU7K-?B*VZ_F"(4DPK6PKBLKGLKB,[I)[J][GLH`ZQ=0BI0V_L_VWK]VGI`6[L&gt;6KJ?6SK=6CI@F]LNFM&gt;PI-P/-Y@2!OPUNX8RZOPHV_?(`X^=0.`=`PN`?@@NT_B`_TT_$&lt;K.=[(ZMV_A6FW?'Y!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
@@ -35,10 +37,10 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="IPS120_GoToField_SubVI.vi" Type="VI" URL="../../IPS120_GoToField_SubVI.vi"/>
-		<Item Name="Set Hold - Check &amp; Resend.vi" Type="VI" URL="../Set Hold - Check &amp; Resend.vi"/>
-		<Item Name="Set Target - Check &amp; Resend.vi" Type="VI" URL="../Set Target - Check &amp; Resend.vi"/>
-		<Item Name="Set To Set - Check &amp; Resend.vi" Type="VI" URL="../Set To Set - Check &amp; Resend.vi"/>
+		<Item Name="IPS120_GoToField_SubVI.vi" Type="VI" URL="../subVIs/IPS120_GoToField_SubVI.vi"/>
+		<Item Name="Set Hold - Check &amp; Resend.vi" Type="VI" URL="../subVIs/Set Hold - Check &amp; Resend.vi"/>
+		<Item Name="Set Target - Check &amp; Resend.vi" Type="VI" URL="../subVIs/Set Target - Check &amp; Resend.vi"/>
+		<Item Name="Set To Set - Check &amp; Resend.vi" Type="VI" URL="../subVIs/Set To Set - Check &amp; Resend.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -51,5 +53,5 @@
 			<Item Name="FGV_PSP - IPS120 Targets.vi" Type="VI" URL="../FGV/FGV_PSP - IPS120 Targets.vi"/>
 		</Item>
 	</Item>
-	<Item Name="IPS120_GoToField.vi" Type="VI" URL="../../IPS120_GoToField.vi"/>
+	<Item Name="IPS120_GoToField.vi" Type="VI" URL="../IPS120_GoToField.vi"/>
 </Library>

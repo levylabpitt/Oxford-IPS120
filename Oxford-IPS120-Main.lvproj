@@ -10,13 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="API" Type="Folder">
-			<Item Name="IPS-120-API.lvlib" Type="Library" URL="../API/IPS-120-API.lvlib"/>
-		</Item>
+		<Item Name="API" Type="Folder"/>
 		<Item Name="Application" Type="Folder">
 			<Item Name="Oxford-IPS120-Main.vi" Type="VI" URL="../Application/Oxford-IPS120-Main.vi"/>
 		</Item>
-		<Item Name="IPS-120.lvlib" Type="Library" URL="../IPS120 - SubVIs/IPS-120.lvlib"/>
+		<Item Name="IPS-120.lvlib" Type="Library" URL="../IPS-120.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
