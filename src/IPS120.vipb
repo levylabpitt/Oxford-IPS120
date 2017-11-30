@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-11-22 11:03:49" Modified_Date="2017-11-22 11:13:11" Creator="Patrick Irvin" Comments="" ID="d432537afb3ce47ad43ad5e23094c71a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-11-22 11:03:49" Modified_Date="2017-11-30 10:22:02" Creator="Patrick Irvin" Comments="" ID="88b712337a236ddf1680f3d901ffbbe1">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\inst\Oxford_IPS120</Library_Output_Folder>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Initial release.</Release_Notes>
+      <Release_Notes>Fix bug where PS voltage wasn't being logged</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,8 +227,8 @@
       <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Access</NameSub_Menu_Name>
-        <Short_Name>Access</Short_Name>
+        <NameSub_Menu_Name>Accessors</NameSub_Menu_Name>
+        <Short_Name>Accessors</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
@@ -238,11 +238,11 @@
         <Path>API\Access</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8C1C7CCC0497FE977B60DB91ACDFA5A7</GUID>
+      <GUID>01349452A832F6411ED8AF886780998F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>Access</Name>
+      <Name>Accessors</Name>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
@@ -301,7 +301,7 @@
         <Path>API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2F7B409DE9D7D39FF023F1D4B798566</GUID>
+      <GUID>F41D3A7E4222D7C5130C2EF8B8BB8F90</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
