@@ -75,6 +75,6 @@
 		<Item Name="IPS Read PS Voltage.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Voltage.vi"/>
 		<Item Name="NI USB GPIB Command.vi" Type="VI" URL="../IPS120/Drivers/NI USB GPIB Command.vi"/>
 	</Item>
-	<Item Name="Oxford-IPS120-Main.vi" Type="VI" URL="../Application/Oxford-IPS120-Main.vi"/>
 	<Item Name="IPS-120-API.lvlib" Type="Library" URL="../API/IPS-120-API.lvlib"/>
+	<Item Name="Oxford-IPS120-Main.vi" Type="VI" URL="../Application/Oxford-IPS120-Main.vi"/>
 </Library>
