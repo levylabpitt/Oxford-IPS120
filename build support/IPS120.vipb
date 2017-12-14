@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2017-12-13 12:07:02" Creator="Patrick Irvin" Comments="" ID="78ca8a4c21ad162426d68d1831e5eabd">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2017-12-13 12:13:43" Creator="Patrick Irvin" Comments="" ID="73378c1cbe78e316b2820226248318fb">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.0.1.5</Library_Version>
+    <Library_Version>1.0.1.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Fix bug where PS voltage wasn't being logged</Release_Notes>
+      <Release_Notes>build new package containing an IPS120.exe</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -236,7 +236,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB4E045ADB8A53C08C0436EC08511EDF</GUID>
+      <GUID>F144EAEBE3319AC1D7D4E964A3CCC2FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -299,7 +299,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14BDCCC13FC5F51A00DFE189EEA9A69E</GUID>
+      <GUID>BD6091C74074EB27601A4D2EE3B3EDDC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -376,7 +376,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>808427C4EDD784867A2210909D0F860E</GUID>
+      <GUID>2511A78BC9C609E332AAEDB09C9E13C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -411,7 +411,7 @@
         <Path>..\src\Application\Oxford-IPS120-Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EC5691CA65C99F69B9BD1672D9F1A3B</GUID>
+      <GUID>0C860A3E0A2711D069932B350834658C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -460,7 +460,7 @@
         <Path>..\src\IPS120\DSC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C391B4D12C7A83D3A033561D7CD1268</GUID>
+      <GUID>9092C85F45738677B16B8F878A3CCE0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -523,7 +523,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5B90291B536BDE664EC13FD23AD57C75</GUID>
+      <GUID>6CF953B1B6890AB0CA829C1EB3B7AC46</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -628,7 +628,7 @@
         <Path>..\src\API\FGV\FGV_PSP - IPS120 Targets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C3E179B40EC05F75258DF85B918ABFDE</GUID>
+      <GUID>B87FA29C127B5D9BAE3E7A43F450EE8A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -705,7 +705,7 @@
         <Path>..\src\API\subVIs\Set To Set - Check &amp; Resend.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19B72C6920ACE9654AF34CB317DCFE9D</GUID>
+      <GUID>6D07C50A3758F5AD188F3C2733195F7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1006,7 +1006,7 @@
         <Path>..\src\IPS120\Drivers\NI USB GPIB Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1DC36D754787E6AF3C1D03C499F39746</GUID>
+      <GUID>888C35605E8497536942679006076CBE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1069,7 +1069,7 @@
         <Path>..\src\IPS120\DSC\NetVarWrite_str.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3D21BC0AB8A6F2AA3AD2074B1CC1955</GUID>
+      <GUID>784DAF95664C85A7F190AA1FA5796EF6</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1104,7 +1104,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB97AC096C4D4D6705528D02B53DD154</GUID>
+      <GUID>58533459D8D0241437256C634B14A456</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1139,7 +1139,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>112338B70BF2DB6204ED70D528BE6344</GUID>
+      <GUID>AA525C29BB97CFD8B48E654B33336484</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1174,7 +1174,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E58BFF4B2F4D30D98D1AC56299595251</GUID>
+      <GUID>D05CA857F2DFD8D6FD7F789782381698</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1335,7 +1335,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>233BEC896E9824916BFA4ECD90975EB1</GUID>
+      <GUID>B6AB787E91F4BD2B2FCAE099F8E6BBEE</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
