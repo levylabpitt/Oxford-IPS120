@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2017-12-14 13:34:32" Creator="Patrick Irvin" Comments="" ID="2ac537be0ec73bdd5a4ebd019018dd47">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-11 13:41:34" Creator="Patrick Irvin" Comments="" ID="db0b4f8160aa2514bc1f943076e022da">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.0.1.7</Library_Version>
+    <Library_Version>1.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -23,7 +23,7 @@
       <Direct_Dependencies>oglib_time-4.0.1.3</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
+      <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -37,7 +37,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>fix bug in ReadPowerSupplyField.vi</Release_Notes>
+      <Release_Notes>- remove calls to read persistent field and current
+- PS switch control reflects state of the switch</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -112,12 +113,6 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
-      <Destination_Overrides>
-        <Path>builds</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -136,6 +131,9 @@
       </Exclusions>
       <Exclusions>
         <Path>.hgtags</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>builds</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -236,7 +234,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EBF16C6FB0C10EDDCE0003BB2D7100D</GUID>
+      <GUID>698DEF7BFC5C32233AA8493100EE6FBD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -299,7 +297,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8A5D4180D930FD26E0B3C8AD53517A6</GUID>
+      <GUID>F4311B73F8B58DE1886DC628AD97A5FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -376,7 +374,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24686204A85D08DBF94A8719A629E6C3</GUID>
+      <GUID>DD93A8ED039992165EC8647F2D6A9EB5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -411,7 +409,7 @@
         <Path>..\src\Application\Oxford-IPS120-Main.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B14907FEEB68866D380BAB8B0055E22</GUID>
+      <GUID>26D7AC6C9C610AF88FE99C9E49917B06</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -460,7 +458,7 @@
         <Path>..\src\IPS120\DSC</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B077A970B3F2ADD3911DF8E745982A46</GUID>
+      <GUID>9359B7EC77C9D02ECB334B22629D8B0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -523,7 +521,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D4A2D88829C924BC1F1AE6B4A5B480D</GUID>
+      <GUID>6C015275180690470D6C8E5DE3E19EFA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -628,7 +626,7 @@
         <Path>..\src\API\FGV\FGV_PSP - IPS120 Targets.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>744B433F48CEBFCF68FD205972F1EF0B</GUID>
+      <GUID>956E9D67EE1C22E3758C1313C8D61DED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -705,7 +703,7 @@
         <Path>..\src\API\subVIs\Set To Set - Check &amp; Resend.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E81517C12ABEB58009557CCE1C1BD0C6</GUID>
+      <GUID>998B73575CDED307E8C1FC4602F9A0ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1006,7 +1004,7 @@
         <Path>..\src\IPS120\Drivers\NI USB GPIB Command.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62DE209C7F5AC78B350B8EB1F6BC5A4D</GUID>
+      <GUID>365C0CA8F33B85CC9854C09EF71A01BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1069,7 +1067,7 @@
         <Path>..\src\IPS120\DSC\NetVarWrite_str.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7AE58FADBD3249F55259323F3379174C</GUID>
+      <GUID>F9242864CA0AFF8E11856BB62815B184</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1104,7 +1102,7 @@
         <Path>..\src</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0ABA06B03C166925E778FA524008432</GUID>
+      <GUID>32AFA3CE09619CCDFA36A38184D1D5B8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1139,7 +1137,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>419FC7172A40BDABAE0AFB3937D2A342</GUID>
+      <GUID>CBDAA9D1BA115F658808B9EC08AAE091</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1174,7 +1172,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD9F92F3DCC11C65AA7205EE1DEDCD19</GUID>
+      <GUID>AECDA62FB1DB7BAD8F8AABC67F2FF90F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1335,7 +1333,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A2D34BEFF1F676149B2709EEE05572E7</GUID>
+      <GUID>3626EBD3C991EE15E14ABA342479869D</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
