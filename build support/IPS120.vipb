@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-12 13:01:15" Creator="Patrick Irvin" Comments="" ID="9d33786f51b4f833b4f255d9e9cb593b">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-13 09:48:14" Creator="Patrick Irvin" Comments="" ID="e883fd9346493a817de1520be93126aa">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
     <Library_Version>1.1.1.9</Library_Version>
@@ -37,7 +37,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- bug fix: read APIs are now reading :)
+      <Release_Notes>- bug fix: read APIs are now reading
 - change installtion path to /*ips120/ instead of /*ips120/src/</Release_Notes>
     </Description>
     <Destinations>
@@ -123,18 +123,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>build support</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>builds/VIPM</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>.hgtags</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>builds</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -248,7 +236,7 @@
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE408290C29711A7B6100D885AEFE96F</GUID>
+      <GUID>C0DD6D78A134721A3E6F99E9F11682E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -297,7 +285,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67F85FD3FDCAC93048B0162BB7451889</GUID>
+      <GUID>9B72BE272C6F1235F933896153557F85</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -360,7 +348,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>238800C08CFA47644E0FBA994186891F</GUID>
+      <GUID>0986B230D153E48CBD7A085177FC4E0B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -395,7 +383,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E2218239907BBF4EE10DE1183AD0F9C5</GUID>
+      <GUID>EF04E41F6CE1A35790DC28BD271B5637</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +418,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>362CE68F71206CC8F7EB94300F195D7B</GUID>
+      <GUID>04D3A94A5720799EFA256E8569A81E20</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -591,7 +579,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBAB79F8115B229BD9089D8D4EFC4A8B</GUID>
+      <GUID>64C034BAC36B922B911CDD05C4E665D5</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
