@@ -54,6 +54,7 @@
 	</Item>
 	<Item Name="Drivers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="IPS Parse Switch Heater.vi" Type="VI" URL="../IPS120/Drivers/IPS Parse Switch Heater.vi"/>
 		<Item Name="IPS Set Control.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Control.vi"/>
 		<Item Name="IPS Set Activity.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Activity.vi"/>
 		<Item Name="IPS Set Switch Heater.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Switch Heater.vi"/>
