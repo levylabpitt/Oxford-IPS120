@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-13 09:48:14" Creator="Patrick Irvin" Comments="" ID="e883fd9346493a817de1520be93126aa">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-13 15:20:10" Creator="Patrick Irvin" Comments="" ID="b4017308ac00afb19b47204900e3da2f">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.1.1.9</Library_Version>
+    <Library_Version>1.1.3.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -37,8 +37,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- bug fix: read APIs are now reading
-- change installtion path to /*ips120/ instead of /*ips120/src/</Release_Notes>
+      <Release_Notes>- Change Persistent Switch (PS) Heater Logic to try to make more reliable.
+- Add indicator for PS status to front panel</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -236,7 +236,7 @@
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C0DD6D78A134721A3E6F99E9F11682E8</GUID>
+      <GUID>37076A7C4572BB22DFFAF998692F303E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -285,7 +285,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B72BE272C6F1235F933896153557F85</GUID>
+      <GUID>515D56090BBEF0B1340E652E18653A22</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -348,7 +348,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0986B230D153E48CBD7A085177FC4E0B</GUID>
+      <GUID>3E83BF2848FEF449BF86AAE580137C8D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -383,7 +383,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF04E41F6CE1A35790DC28BD271B5637</GUID>
+      <GUID>2D5ABCFDF00823F41920CA2886DC7CFA</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -418,7 +418,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04D3A94A5720799EFA256E8569A81E20</GUID>
+      <GUID>B13ECD347462C3583CADA72D0B6B84A8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -579,7 +579,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64C034BAC36B922B911CDD05C4E665D5</GUID>
+      <GUID>83BA172BD8BDA64BAF8608CAB427FED2</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
