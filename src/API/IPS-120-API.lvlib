@@ -62,5 +62,8 @@
 		<Item Name="ReadTargetField.vi" Type="VI" URL="../Access/ReadTargetField.vi"/>
 		<Item Name="ReadTargetFieldRate.vi" Type="VI" URL="../Access/ReadTargetFieldRate.vi"/>
 	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Status - Cluster.ctl" Type="VI" URL="../Typedefs/Status - Cluster.ctl"/>
+	</Item>
 	<Item Name="IPS120_GoToField.vi" Type="VI" URL="../IPS120_GoToField.vi"/>
 </Library>
