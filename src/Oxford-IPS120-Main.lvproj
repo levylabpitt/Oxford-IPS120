@@ -16,6 +16,7 @@
 			<Item Name="Pre-Build Custom Action.vi" Type="VI" URL="../../build support/Pre-Build Custom Action.vi"/>
 		</Item>
 		<Item Name="IPS-120.lvlib" Type="Library" URL="../IPS-120.lvlib"/>
+		<Item Name="Status - Cluster.ctl" Type="VI" URL="../API/Typedefs/Status - Cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
