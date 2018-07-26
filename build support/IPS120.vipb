@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-04-16 13:55:25" Creator="Patrick Irvin" Comments="" ID="8642f75b41effa4c244e86ff0ea8a637">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-07-26 13:07:37" Creator="Patrick Irvin" Comments="" ID="cfd91118e181b5a63c2927bbdd39acc2">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.1.4.12</Library_Version>
+    <Library_Version>1.2.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -37,9 +37,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Fix magnet status indicator
-- Persistent field is shown again. Please note that persistent field means the field in the magnet the last time the persistent switch heater was turned off. This is why the indicator may always read zero.
-- Add indicator when switch is unable to turn on (because magnet field /= power supply field).</Release_Notes>
+      <Release_Notes>- refactor driver VIs to have consistent palettes and error handling</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -124,6 +122,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>SMOs</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -237,7 +238,7 @@
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>889306D9F11E3C32B4F9ED48DF7F1DA9</GUID>
+      <GUID>1E99C7ED27564F759A7B9A9D53FE7451</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -286,7 +287,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45E67AAB157269BBDC2BD774B5FBD56E</GUID>
+      <GUID>A5D3F257DAC7C783FEE47FECDFFA8A49</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -349,7 +350,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD640778A0F4C98604A71CF97B8919E3</GUID>
+      <GUID>60C6E805D2858E0856CF3CE1D0489789</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -384,7 +385,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C00E1659FEDE0553901064385976CEF6</GUID>
+      <GUID>B771E99172948BE3F0D50EB6EC6FCFBE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -419,7 +420,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E12C177E42049E738CA97DC926E89E1</GUID>
+      <GUID>60EFDA9AE7B719AF8624BD6E85427EB0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -580,7 +581,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B118F1A6EBDDE70044A3A99939604998</GUID>
+      <GUID>3B160DB0BA05290D4C75674E4AD28CA3</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
