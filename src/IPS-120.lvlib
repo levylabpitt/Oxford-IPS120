@@ -64,7 +64,7 @@
 		<Item Name="IPS Set Target Current Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Set Target Current Sweep Rate.vi"/>
 		<Item Name="IPS Examine Status.vi" Type="VI" URL="../IPS120/Drivers/IPS Examine Status.vi"/>
 		<Item Name="IPS Parse Status.vi" Type="VI" URL="../IPS120/Drivers/IPS Parse Status.vi"/>
-		<Item Name="IPS Read Switch Heater NOT WORKING.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Switch Heater NOT WORKING.vi"/>
+		<Item Name="IPS Read Switch Heater Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Switch Heater Current.vi"/>
 		<Item Name="IPS Read Target Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Current.vi"/>
 		<Item Name="IPS Read Target Current Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Current Sweep Rate.vi"/>
 		<Item Name="IPS Read Magnet Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Magnet Current.vi"/>
