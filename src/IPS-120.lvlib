@@ -71,7 +71,7 @@
 		<Item Name="IPS Read PS Current.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Current.vi"/>
 		<Item Name="IPS Read Target Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Field.vi"/>
 		<Item Name="IPS Read Target Field Sweep Rate.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Target Field Sweep Rate.vi"/>
-		<Item Name="IPS Read Persistent Magnet Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Persistent Magnet Field.vi"/>
+		<Item Name="IPS Read Magnet Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read Magnet Field.vi"/>
 		<Item Name="IPS Read PS Field.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Field.vi"/>
 		<Item Name="IPS Read PS Voltage.vi" Type="VI" URL="../IPS120/Drivers/IPS Read PS Voltage.vi"/>
 		<Item Name="NI USB GPIB Command.vi" Type="VI" URL="../IPS120/Drivers/NI USB GPIB Command.vi"/>
