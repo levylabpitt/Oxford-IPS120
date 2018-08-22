@@ -58,6 +58,7 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="IPS120_GoToField.vi" Type="VI" URL="../IPS120_GoToField.vi"/>
 		<Item Name="ReadPowerSupplyField.vi" Type="VI" URL="../Access/ReadPowerSupplyField.vi"/>
 		<Item Name="ReadTargetField.vi" Type="VI" URL="../Access/ReadTargetField.vi"/>
 		<Item Name="ReadTargetFieldRate.vi" Type="VI" URL="../Access/ReadTargetFieldRate.vi"/>
@@ -65,5 +66,4 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Status - Cluster.ctl" Type="VI" URL="../Typedefs/Status - Cluster.ctl"/>
 	</Item>
-	<Item Name="IPS120_GoToField.vi" Type="VI" URL="../IPS120_GoToField.vi"/>
 </Library>
