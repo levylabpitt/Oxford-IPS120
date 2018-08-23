@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-07-26 13:07:37" Creator="Patrick Irvin" Comments="" ID="cfd91118e181b5a63c2927bbdd39acc2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-11-22 11:03:49" Modified_Date="2018-08-22 16:19:58" Creator="Patrick Irvin" Comments="" ID="b54aa3146368a3bb0adcd3ccb0bbbfc9">
   <Library_General_Settings>
     <Package_File_Name>Oxford_lib_IPS120</Package_File_Name>
-    <Library_Version>1.2.0.13</Library_Version>
+    <Library_Version>1.2.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\VIPM</Library_Output_Folder>
@@ -238,7 +238,7 @@
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E99C7ED27564F759A7B9A9D53FE7451</GUID>
+      <GUID>3CE93C015FEB7690B946D881B932F2A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -287,7 +287,7 @@
         <Path>..\src\API\IPS120_GoToField.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5D3F257DAC7C783FEE47FECDFFA8A49</GUID>
+      <GUID>CD033FAC4A7BF9BD040C738093A6DABA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -350,7 +350,7 @@
         <Path>..\src\API\Access\ReadTargetFieldRate.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60C6E805D2858E0856CF3CE1D0489789</GUID>
+      <GUID>B8B1D5D2420020CB975D3E199C6C3E7D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -385,7 +385,7 @@
         <Path>..\src\IPS120</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B771E99172948BE3F0D50EB6EC6FCFBE</GUID>
+      <GUID>586CE737FA2CF90741115F4C1D983108</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -420,7 +420,7 @@
         <Path>..\src\IPS120\Typedefs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60EFDA9AE7B719AF8624BD6E85427EB0</GUID>
+      <GUID>F11F787179ADFE9C37E5977F635F67DD</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -581,7 +581,7 @@
         <Path>..\src\IPS120\Typedefs\Set Switch Heater - Enum.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B160DB0BA05290D4C75674E4AD28CA3</GUID>
+      <GUID>D275B991B12F0BFBC26CB2E8C84FDD34</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
