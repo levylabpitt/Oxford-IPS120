@@ -1,4 +1,0 @@
-syntax: glob
-*.vip
-*.exe
-builds/

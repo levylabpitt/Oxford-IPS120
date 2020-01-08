@@ -16,6 +16,7 @@
 			</Item>
 			<Item Name="7zS2.sfx" Type="Document" URL="../../build support/7zS2.sfx"/>
 			<Item Name="7zSD.sfx" Type="Document" URL="../../build support/7zSD.sfx"/>
+			<Item Name="IPS120.ico" Type="Document" URL="../../build support/IPS120.ico"/>
 			<Item Name="IPS120.vipb" Type="Document" URL="../../build support/IPS120.vipb"/>
 			<Item Name="IPS120.vipc" Type="Document" URL="../../build support/IPS120.vipc"/>
 			<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../../build support/Post-Build Custom Action.vi"/>
@@ -1049,7 +1050,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7241913-23B4-4DD0-9927-4940627A19AC}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">IPS120.exe</Property>
@@ -1059,7 +1060,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Oxford IPS120/Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{042A3713-13C7-4023-987E-1758AA2C9656}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/IPS120.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3B64A843-1551-4F72-BABE-86BBB675CA7A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IPS-120.lvlib/Oxford-IPS120-Main.vi</Property>
