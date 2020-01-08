@@ -51,6 +51,7 @@
 		<Item Name="Read Mode 1 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Mode 1 - Enum.ctl"/>
 		<Item Name="Read Mode 2 - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Mode 2 - Enum.ctl"/>
 		<Item Name="Read Switch Heater - Enum.ctl" Type="VI" URL="../IPS120/Typedefs/Read Switch Heater - Enum.ctl"/>
+		<Item Name="Targets - Cluster.ctl" Type="VI" URL="../API/Typedefs/Targets - Cluster.ctl"/>
 	</Item>
 	<Item Name="Drivers" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
