@@ -1050,9 +1050,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7241913-23B4-4DD0-9927-4940627A19AC}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IPS120.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Oxford IPS120/Application/IPS120.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1148,7 +1149,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Oxford IPS120 Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{5CB06857-E6A3-46DF-B192-B33019A64F06}</Property>
 				<Property Name="INST_productName" Type="Str">Levylab Oxford IPS120</Property>
-				<Property Name="INST_productVersion" Type="Str">1.3.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.3.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Levylab</Property>
